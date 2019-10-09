@@ -4,8 +4,6 @@ import java.util.Random;
 
 public class GameEngine {
 
-//    Game game = new Game();
-
     private static final int min = 1;
     private static final int max = 100;
 
@@ -55,6 +53,8 @@ public class GameEngine {
         }
     }
 
+    // This sets random numbers to number 1 and 2. Checks the operator and if it is 4 starts -
+    // divisionNumberGenerator() method.
     public void setNumbersRandom() {
 
         if (operator == 4) {
@@ -90,6 +90,7 @@ public class GameEngine {
         }
     }
 
+    // Starts random number generator
     private void secondRandomNumber() {
         Random random = new Random();
         int random2num = random.nextInt(num1) + min;
