@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">King Of Math</string>
+    <string name="king_of_math">KING OF MATH</string>
+    <string name="quit_game">QUIT GAME</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="play">PLAY</string>
+    <string name="todo">TODO</string>
+    <string name="in_this_game_you_have_to_solve_mathematical_riddles_as_fast_as_possible">In this game you have to solve mathematical riddles as fast as possible.</string>
+    <string name="you_have_5_seconds_to_solve_subtraction_and_composition_tasks">You have 5 seconds to solve subtraction and composition tasks.</string>
+    <string name="division_and_multiplication_tasks_you_have_to_solve_in_10_seconds">Division and multiplication tasks you have to solve in 10 seconds</string>
+    <string name="back_button">Back button</string>
+    <string name="equal">=</string>
+    <string name="check_answer">CHECK ANSWER</string>
+</resources>
