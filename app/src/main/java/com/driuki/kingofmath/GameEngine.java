@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class GameEngine {
 
-    private static final int min = 1;
-    private static final int max = 100;
+    private static final int MIN = 1;
+    private static final int MAX = 100;
 
     private int num1, num2, operator;
 
@@ -69,14 +69,14 @@ public class GameEngine {
     // Generates random numbers from min to max
     private int randomNumber() {
         Random random = new Random();
-        return random.nextInt(max) + min;
+        return random.nextInt(MAX) + MIN;
     }
 
     // This has to generate numbers for division
     private void divisionNumberGenerator() {
         Random random = new Random();
 
-        int num1rand = random.nextInt(max) + min;
+        int num1rand = random.nextInt(MAX) + MIN;
         setNum1(num1rand);
 
         boolean running = true;
@@ -93,7 +93,7 @@ public class GameEngine {
     // Starts random number generator
     private void secondRandomNumber() {
         Random random = new Random();
-        int random2num = random.nextInt(num1) + min;
+        int random2num = random.nextInt(num1) + MIN;
         setNum2(random2num);
     }
 

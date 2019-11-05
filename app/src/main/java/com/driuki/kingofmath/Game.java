@@ -20,7 +20,7 @@ public class Game extends Activity {
     private CountDownTimer countDownTimer;
     private long timeLeftInMilliseconds = 11 * 1000;
 
-    GameEngine engine = new GameEngine();
+    GameEngine engine;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
